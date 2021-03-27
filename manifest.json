@@ -3,10 +3,18 @@
   "description": "Scanner to flag misinformation!",
   "version": "1.0",
   "manifest_version": 3,
-  "background": {
-    "service_worker": "background.js"
-  },
-  "permissions": ["storage", "activeTab", "scripting"],
+  //"background": {
+  //  "service_worker": "background.js"
+  //},
+  "permissions": [ "storage", "activeTab", "scripting" ],
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "scanner.js" ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
