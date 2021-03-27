@@ -1,6 +1,6 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Misinformation Scanner",
+  "description": "Scanner to flag misinformation!",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
@@ -10,17 +10,17 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "/images/Honey logo.png",
+      "32": "/images/Honey logo.png",
+      "48": "/images/Honey logo.png",
+      "128": "/images/Honey logo.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
+    "16": "/images/Honey logo.png",
+    "32": "/images/Honey logo.png",
+    "48": "/images/Honey logo.png",
+    "128": "/images/Honey logo.png"
   },
   "options_page": "options.html"
 }
