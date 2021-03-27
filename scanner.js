@@ -5,7 +5,7 @@ document.addEventListener('mousemove', function (e) {
     console.log(srcElement);
 
 
-    if (srcElement.href != "") {
+    if (srcElement.hasAttribute("href") && srcElement.href != "") {
 
         test = srcElement.href.toLowerCase();
         //This is where we would open the popup
