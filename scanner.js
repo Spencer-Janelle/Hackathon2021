@@ -36,7 +36,16 @@ document.addEventListener('mousemove', function (e) {
         }
 		if (counter > 1 && !test.includes("snopes")) {
 			// "THIS HAS BEEN FLAGGED AS POTENTIAL MISINFORMATION!"
-			renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover.html" width="215px", height="120px"></object>')
+			if (test.includes("facebook")) {
+				renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover1.html" width="215px", height="120px"></object>')
+			}
+			if (test.includes("rumor")) {
+				renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover2.html" width="215px", height="120px"></object>')
+			}
+			if (test.includes("rise")) {
+				renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover3.html" width="215px", height="120px"></object>')
+			}
+			
 		}
 		// else {
 			// renderBubble(e.clientX + 5, e.clientY, "NO MISINFORMATION DETECTED")
