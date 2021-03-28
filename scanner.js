@@ -1,6 +1,7 @@
 // Test bubble
 var bubbleDOM = document.createElement('div');
 bubbleDOM.setAttribute('class', 'selection_bubble');
+
 document.body.appendChild(bubbleDOM);
 keywords = ["coronavirus", "5g", "9/11", "bush", "rigged", "election"]
 
@@ -22,7 +23,7 @@ document.addEventListener('mousemove', function (e) {
         }
 		if (counter > 1 && !test.includes("snopes")) {
 			// "THIS HAS BEEN FLAGGED AS POTENTIAL MISINFORMATION!"
-			renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover.html" ></object>')
+			renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover.html" width="215px", height="85px"></object>')
 		} 
 		// else {
 			// renderBubble(e.clientX + 5, e.clientY, "NO MISINFORMATION DETECTED")
@@ -33,5 +34,6 @@ document.addEventListener('mousemove', function (e) {
         bubbleDOM.style.top = mouseY + 'px';
         bubbleDOM.style.left = mouseX + 'px';
         bubbleDOM.style.visibility = 'visible';
+		
     }
 });
