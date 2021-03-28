@@ -1,11 +1,8 @@
 
 body {
-    margin: 1px;
+    margin: 10px;
     background-color: #444;
-    //border-radius: 100px;
-	height: 20px;
-	width: 50px;
-	display: inline;
+	height: 50px;
   }
 
   img.icon {
