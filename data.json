@@ -1,6 +1,6 @@
-"Sources" : [
-   {
-      "site":"https://google.com", "tumbs_up":0, "thumbs_down":0,"thumbs_middle":0,
-   },
+{
+  "Sources" : [
+   {"site":"https://google.com", "tumbs_up":0, "thumbs_down":0,"thumbs_middle":0},
+   {"site":"https://www.vox.com/recode/2020/4/24/21231085/coronavirus-5g-conspiracy-theory-covid-facebook-youtube",  "tumbs_up":0, "thumbs_down":0,"thumbs_middle":0}
    ]
 }
