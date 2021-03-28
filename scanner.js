@@ -23,7 +23,7 @@ document.addEventListener('mousemove', function (e) {
         }
 		if (counter > 1 && !test.includes("snopes")) {
 			// "THIS HAS BEEN FLAGGED AS POTENTIAL MISINFORMATION!"
-			renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover.html" width="215px", height="85px"></object>')
+			renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover.html" width="220px" height="120px" border-radius="100px" ></object>')
 		} 
 		// else {
 			// renderBubble(e.clientX + 5, e.clientY, "NO MISINFORMATION DETECTED")

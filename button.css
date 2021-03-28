@@ -1,57 +1,73 @@
 
 body {
-  margin: 10px;
-  background-color: #444;
-  border-radius: 100px;
+    margin: 1px;
+    background-color: #444;
+    //border-radius: 100px;
+	height: 20px;
+	width: 50px;
+	display: inline;
+  }
+
+  img.icon {
+    float:left;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 30px 30px 30px;
-  grid-template-columns: 30px 30px 30px;
-  grid-gap: 5px;
-  border-radius: 100px;
-  background-color: #444;
-  color: #444;
+a:link {
+    color: #fff;
 }
-
-button.trust {
-  background-color: #81da89;
+  
+a:visited {
   color: #fff;
-  border-radius: 5px;
-  padding-top: 8px;
-  padding-bottom: 6px;
-  padding-right: 8px;
-  padding-left: 8px;
-  font-size: 100%;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-button.sus {
-  background-color: #ffdc5e;
-  color: #fff;
-  border-radius: 5px;
-  padding-top: 8px;
-  padding-bottom: 6px;
-  padding-right: 8px;
-  padding-left: 8px;
-  font-size: 100%;
+a:hover {
+  color: #ffdc5e;
 }
+  .wrapper {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+    border-radius: 100px;
+    background-color: #444;
+    color: #444;
+  }
+  
+  button.trust {
+    background-color: #81da89;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 100%;
+  }
+  
+  button.sus {
+    background-color: #ffdc5e;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 100%;
+  }
+  
+  button.fake {
+    background-color: #f15156;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 100%;
+  }
 
-button.fake {
-  background-color: #f15156;
-  color: #fff;
-  border-radius: 5px;
-  padding-top: 8px;
-  padding-bottom: 6px;
-  padding-right: 8px;
-  padding-left: 8px;
-  font-size: 100%;
-}
-
-button:hover {
-  box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.2);
-}
-
-img {
-  opacity:0.8
-}
+  img.hand {
+    opacity:0.8;
+  }

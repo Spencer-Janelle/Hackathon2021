@@ -1,7 +1,7 @@
 
 body {
     margin: 1px;
-    background-color: #444;
+    background-color: #5F5E5E;
     //border-radius: 100px;
 	height: 20px;
 	width: 50px;
@@ -31,7 +31,7 @@ a:hover {
     grid-template-columns: 30px 30px 30px;
     grid-gap: 5px;
     border-radius: 100px;
-    background-color: #444;
+    background-color: #5F5E5E;
     color: #444;
   }
   

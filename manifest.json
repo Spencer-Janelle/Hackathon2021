@@ -19,17 +19,17 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/Honey logo.png",
-      "32": "/images/Honey logo.png",
-      "48": "/images/Honey logo.png",
-      "128": "/images/Honey logo.png"
+      "16": "/images/beacon.png",
+      "32": "/images/beacon.png",
+      "48": "/images/beacon.png",
+      "128": "/images/beacon.png"
     }
   },
   "icons": {
-    "16": "/images/Honey logo.png",
-    "32": "/images/Honey logo.png",
-    "48": "/images/Honey logo.png",
-    "128": "/images/Honey logo.png"
+    "16": "/images/beacon.png",
+    "32": "/images/beacon.png",
+    "48": "/images/beacon.png",
+    "128": "/images/beacon.png"
   },
   "options_page": "options.html"
 }
