@@ -20,11 +20,13 @@ document.addEventListener('mousemove', function (e) {
                 counter += 1
             }
         }
-            if (counter > 1) {
-                renderBubble(e.clientX, e.clientY, "THIS HAS BEEN FLAGGED AS POTENTIAL MISINFORMATION!")
-            } else {
-                renderBubble(e.clientX, e.clientY, "NO MISINFORMATION DETECTED")
-            }
+		if (counter > 1 && !test.includes("snopes")) {
+			// "THIS HAS BEEN FLAGGED AS POTENTIAL MISINFORMATION!"
+			renderBubble(e.clientX + 5, e.clientY, '<object type="text/html" data="hover.html" ></object>')
+		} 
+		// else {
+			// renderBubble(e.clientX + 5, e.clientY, "NO MISINFORMATION DETECTED")
+		// }
     }
     function renderBubble(mouseX, mouseY, srcElement) {
         bubbleDOM.innerHTML = srcElement;
